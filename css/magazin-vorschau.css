@@ -1,0 +1,14 @@
+/* Magazin-Vorschau: einheitliche Bildgröße, Zuschnitt von oben (oben bleibt, unten wird weggeschnitten) */
+.magazin-vorschau .post-classic.post-minimal > a:first-of-type {
+    display: block;
+    aspect-ratio: 550 / 303;
+    overflow: hidden;
+    background: #eee;
+}
+.magazin-vorschau .post-classic.post-minimal > a:first-of-type img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: top center;
+    display: block;
+}

@@ -1,0 +1,22 @@
+# robots.txt for https://www.fitonline.de/
+
+Sitemap: https://www.fitonline.de/sitemap.xml
+
+ 
+
+User-agent: *
+
+Allow: /
+
+ 
+
+# Block a specific bot
+
+User-agent: BadBot
+
+Disallow: /
+
+User-agent: EvilScraper
+
+Disallow: /
+
