@@ -1,2 +1,5 @@
 # Große Medien nicht per Git/GitHub versionieren (Limit ~100 MB pro Datei)
 /videos/
+videos/
+*.mp4
+*.MP4
